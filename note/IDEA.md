@@ -1,4 +1,5 @@
 # [目录](../directory.md)
 ###IntelliJ IDEA
 
-#### [IDEA上传项目到GitHub](../subNote/pushToGithub.md)
+* [IDEA上传项目到GitHub](../subNote/201812111pushToGithub.md)
+* [IDEA markdown需要注意的地方]()
