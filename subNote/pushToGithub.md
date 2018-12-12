@@ -1,3 +1,4 @@
+# [目录](../directory.md)
 #### 说明
 
 * 在idea中创建一个项目并上传到Github
@@ -10,7 +11,7 @@
 * 上传  
 VCS-->Import into Version Control-->Share Project on GitHub，
 在弹框中输入仓库名和描述，点击Share，即可是上传，中间会弹窗输入GitHub的用户名和密码（已输入过用户名和密码并记住的不会再次弹框输入），上传成功后IDEA右下角会给出提示  
-![图示](https://github.com/Cubic-luo/notes/blob/master/note/img/2018-12-11-1.pn)  
+![图示](../img/2018-12-11-1.png)  
 * 提交修改文件到GitHub  
 >方法1：  
 在项目右键-->Git-->Commit Directory，查看有变动的文件并输入Commit Message  
@@ -19,6 +20,6 @@ VCS-->Import into Version Control-->Share Project on GitHub，
 
 >方法2：  
 点击idea右上角上传commit按钮
-![图示](https://github.com/Cubic-luo/notes/blob/master/note/img/2018-12-12_141140.png)   
+![图示](../img/2018-12-12_141140.png)   
 注意：要选择commit and push,如果不小心只commit了，则需要再单独push才能上传到GitHub
-![图示](https://github.com/Cubic-luo/notes/blob/master/note/img//2018-12-12_141527.png)
+![图示](../img/2018-12-12_141527.png)

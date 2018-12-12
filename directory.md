@@ -2,4 +2,4 @@
 ### 编程语言
 * java
 ### 工具
-* [IntelliJ IDEA](https://github.com/Cubic-luo/notes/tree/master/note/IDEA.md)
+* [IntelliJ IDEA](note/IDEA.md)
