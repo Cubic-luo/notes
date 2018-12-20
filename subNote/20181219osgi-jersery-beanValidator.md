@@ -3,9 +3,14 @@
 1.在osgi中，Jersey结合hibernate-validator做参数校验;  
 2.目前验证结果，只能在web模块使用  
 3.在某些环境中，如果pom中涉及到的依赖不能下载到，则需要手动下载放到本地仓库中  
-4.hibernate-validator只验证了5.1.3.Final版本，后续希望验证最新版
+4.hibernate-validator只验证了5.1.3.Final版本，后续希望验证最新版  
+5.校验不通过时，如果项目没约定输出，可以直接抛出异常
+
+#### 参考文献
+* [hibernate-validator](https://blog.csdn.net/quan20111992/article/details/80906334)
 
 
+#### 代码
 * pom
 ```
 <dependencies>
