@@ -1,0 +1,3 @@
+1.Thread类的setPriority()，设置后，运行次数多了才明显
+2.java中，wait和notify这两个方法是一对，wait方法阻塞当前线程，而notify是唤醒被wait方法阻塞的线程。
+首先，需要说明的是，wait和notify方法都是Object的实例方法，要执行这两个方法，有一个前提就是，当前线程必须获其对象的monitor（俗称“锁”），否则会抛出IllegalMonitorStateException异常，所以这两个方法必须在同步块代码里面调用，经典的生产者和消费者模型就是使用这两个方法实现的。
