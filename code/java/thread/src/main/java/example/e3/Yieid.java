@@ -1,6 +1,6 @@
 package example.e3;
 
-public class Test_yieid implements Runnable {
+public class Yieid implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 50; i++) {
@@ -19,7 +19,7 @@ public class Test_yieid implements Runnable {
 //    但是线程是有优先级的，优先级越高的人，就一定能第一个上车吗？这是不一定的，优先级高的人仅仅只是第一个上车的概率大了一点而已，
 //    最终第一个上车的，也有可能是优先级最低的人。并且所谓的优先级执行，是在大量执行次数中才能体现出来的。
     public static void main(String[] args) {
-        new Thread(new Test_yieid(), "A ").start();
-        new Thread(new Test_yieid(), "B ").start();
+        new Thread(new Yieid(), "A ").start();
+        new Thread(new Yieid(), "B ").start();
     }
 }

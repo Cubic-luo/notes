@@ -1,6 +1,6 @@
 package example.e3;
 
-public class Test_sleep implements Runnable {
+public class Sleep implements Runnable {
 
     @Override
     public void run() {
@@ -16,6 +16,6 @@ public class Test_sleep implements Runnable {
     }
 
     public static void main(String[] args) {
-        new Thread(new Test_sleep(), "TEST").start();
+        new Thread(new Sleep(), "TEST").start();
     }
 }
