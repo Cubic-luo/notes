@@ -7,6 +7,8 @@
     <modules>
         <module>code/java/thread</module>
         <module>code/java/netty</module>
+        <module>code/java/effectiveJava</module>
+        <module>code/java/basic</module>
     </modules>
     <groupId>com.xp</groupId>
     <artifactId>notes</artifactId>
